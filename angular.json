@@ -121,8 +121,16 @@
               "devServerTarget": "muviline:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "muviline"
+    }
+  },
+  "defaultProject": "muviline",
+  "cli": {
+    "analytics": false
+  }
 }
